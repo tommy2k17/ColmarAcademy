@@ -1,15 +1,9 @@
 /* Header */
 
-header nav .academy-logo {
-  margin-right: 24px;
-  border-bottom: 32px;
-  background-color: white;
-}
-
-header nav .colmar {
+header .academy-logo {
   display: flex;
   align-items: center;
-  justify-content: center;
-}
-
+  margin-left: 24px;
+  border-bottom: 32px;
+  background-color: white;
 }
