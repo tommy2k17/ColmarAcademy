@@ -37,16 +37,16 @@ nav .menu {
   text-align: left;
 }
 
-ul, li {
+.ul, li {
   display: inline-flex;
   text-align: left;
 }
 
-ul {
-  padding: 0 8px
+.menu ul, li {
+  padding: 0 8px;
 }
 
-li {
+.menu li {
   margin-right: 24px;
 
 }
