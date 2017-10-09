@@ -12,33 +12,39 @@ body {
   margin: 0;
 }
 
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+a {
+  text-decoration: underline;
+}
+
+header {
+  border-bottom: 64px;
+}
+
 header .academy-logo {
   display: flex;
   align-items: center;
   margin-left: 24px;
-  border-bottom: 32px;
   background-color: white;
 }
 
-header .menu {
-  display: flex;
-  justify-content: flex-end;
-  margin-right: 24px;
-  color: black;
+nav .menu {
+  display: inline-flex;
+  text-align: left;
 }
 
 ul, li {
-  display: flex;
+  display: inline-flex;
   padding: 0 1rem;
-  justify-content: flex-end;
+  text-align: left;
+  margin: 16px 16px 16px 24px;
 }
 
 header div {
   display: flex;
-  align-items: flex-end;
-}
-
-nav span {
-  display: inline-block;
-  padding: 20px 10px;
-}
+  text-align: left;
+)
