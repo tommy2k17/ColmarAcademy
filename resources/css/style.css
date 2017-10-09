@@ -4,18 +4,16 @@ html {
   background-color: white;
   font-family: sans-serif;
   line-height: 1.4em;
-  display: block;
 }
 
 body {
   font-family: Helvetica;
   line-height: 1.4em;
   margin: 0;
-  display: block;
 }
 
 header .academy-logo {
-  display: inline;
+  display: flex;
   align-items: center;
   margin-left: 24px;
   border-bottom: 32px;
@@ -23,18 +21,24 @@ header .academy-logo {
 }
 
 header .menu {
-  display: inline;
-  align-items: center;
+  display: flex;
+  justify-content: flex-end;
   margin-right: 24px;
   color: black;
 }
 
 ul, li {
-  display: inline;
+  display: flex;
   padding: 0 1rem;
+  justify-content: flex-end;
 }
 
 header div {
-  display: inline;
+  display: flex;
   align-items: flex-end;
+}
+
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
 }
