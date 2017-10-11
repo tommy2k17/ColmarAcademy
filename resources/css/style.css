@@ -48,9 +48,15 @@ nav .menu {
 
 .menu li {
   margin-right: 24px;
-
 }
+
 header div {
   display: flex;
   text-align: left;
-)
+}
+
+special-container {
+  width: 100%;
+  height: 500px;
+  background-color: gray;
+}
