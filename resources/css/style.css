@@ -50,19 +50,19 @@ nav .menu {
   margin-right: 24px;
 }
 
-header div {
-  display: flex;
-  text-align: left;
-}
-
 .special-container {
   width: 100%;
-  height: 500px;
-  background-color: gray;
+  height: auto;
+  background-color: LightGray;
 }
 
 img {
   margin-top: 32px;
   margin-left: 24px;
-  width: 60px;
+  width: 60%;
+}
+
+header div {
+  display: flex;
+  text-align: left;
 }
