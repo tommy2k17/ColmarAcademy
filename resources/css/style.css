@@ -58,12 +58,12 @@ nav .menu {
 }
 
 img {
-  margin: 24px 24px 32px 32px;
+  margin: 32px 24px 24px 32px;
   width: 60%;
 }
 
 header div {
-  display: flex;
+  display: block;
   text-align: left;
 }
 
