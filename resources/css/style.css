@@ -51,7 +51,7 @@ nav .menu {
   margin-right: 24px;
 }
 
-.special-container {
+.special-container-one {
   width: 100%;
   height: auto;
   background-color: LightGray;
@@ -105,4 +105,11 @@ h2 {
   margin-left: 24px;
   margin-top: 8px;
   margin-bottom: 8px;
+}
+
+.image-container {
+  display: block;
+  width: 100%;
+  height: auto;
+  background-color: white;
 }
