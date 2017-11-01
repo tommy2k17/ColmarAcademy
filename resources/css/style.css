@@ -57,7 +57,7 @@ nav .menu {
   background-color: LightGray;
 }
 
-.bench div {
+.bench {
   margin: 32px 24px 24px 32px;
   width: 60%;
 }
@@ -116,7 +116,7 @@ h2 {
   background-color: white;
 }
 
-.man-reading div {
+.man-reading {
   margin: 32px 24px 24px 32px;
   width: 60%;
 }
