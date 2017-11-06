@@ -130,3 +130,16 @@ p {
   margin-top: 20px;
   margin-bottom: 32px;
 }
+
+.column-two {
+  display: block;
+  width: 40%;
+  align-items: center;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.orientation.date {
+  display: block;
+  margin-left: 24px;
+}
