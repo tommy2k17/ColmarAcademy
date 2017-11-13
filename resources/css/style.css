@@ -59,7 +59,7 @@ nav .menu {
 
 .bench {
   margin: 32px 24px 24px 32px;
-  width: 60rem;;
+  width: 60rem;
 }
 
 header div {
@@ -67,7 +67,7 @@ header div {
   text-align: left;
 }
 
-.column-one {
+.column-beside {
   display: block;
   width: 40%;
   align-items: center;
@@ -88,7 +88,7 @@ h1 {
 h2 {
   display: block;
   font-family: Arial;
-  font-size: 45px;
+  font-size: 40px;
   text-align: left;
   margin: 0;
   padding: 30px;
@@ -115,6 +115,12 @@ h2 {
   background-color: white;
 }
 
+.column-one {
+  display: block;
+  width: 40%;
+  height: auto;
+}
+
 .man-reading {
   margin: 32px 24px 24px 32px;
   width: 60rem;
@@ -134,12 +140,18 @@ p {
 .column-two {
   display: block;
   width: 40%;
-  align-items: center;
-  margin-top: auto;
-  margin-bottom: auto;
+  height: auto;
 }
 
-.orientation.date {
-  display: block;
-  margin-left: 24px;
+.row-one {
+  display: inline-block;
+  width: 40%;
+  height: auto;
+}
+
+.orientation-date {
+  float: left;
+  display: flex;
+  width: 35%;
+  height: auto;
 }
