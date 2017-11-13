@@ -109,7 +109,7 @@ h2 {
 }
 
 .image-container {
-  display: block;
+  display: flex;
   width: 100%;
   height: auto;
   background-color: white;
@@ -124,6 +124,7 @@ h2 {
 .man-reading {
   margin: 32px 24px 24px 32px;
   width: 60rem;
+  flex-shrink: 1;
 }
 
 .narrative {
@@ -138,20 +139,20 @@ p {
 }
 
 .column-two {
-  display: block;
+  display: flex;
   width: 40%;
   height: auto;
 }
 
 .row-one {
-  display: inline-block;
+  display: flex;
   width: 40%;
   height: auto;
 }
 
 .orientation-date {
   float: left;
-  display: flex;
+  display: block;
   width: 35%;
   height: auto;
 }
