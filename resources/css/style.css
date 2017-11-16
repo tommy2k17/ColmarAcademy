@@ -1,8 +1,8 @@
 /* Header */
 @font-face {
   font-family: 'Barlow';
-  src:  url('myfont.woff2') format('woff2'),
-        url('myfont.woff') format('woff');
+  src:  url('Barlow-Regular.woff') format('woff2'),
+        url('Barlow-Regular.woff2') format('woff');
 }
 
 html {
