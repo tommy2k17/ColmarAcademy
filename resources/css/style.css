@@ -122,10 +122,6 @@ h2 {
   background-color: white;
 }
 
-.image-container .flex-container {
-  padding: 30px;
-}
-
 .column-one {
   display: block;
   width: 100%;
@@ -155,11 +151,11 @@ p  {
   height: auto;
 }
 
-.column-two .right-column {
+.column-one .right-column {
   width: 40%;
 }
 
-.column-two .right-column .row-one {
+.column-one .right-column .row-one {
   margin-top: 0px;
   margin-left: 24px;
 }
@@ -198,7 +194,7 @@ p  {
   width: 35%;
   height: auto;
   margin-right: 30px;
-  justify-content: center;
+  margin-bottom: 24px;
 }
 
 .row-two {
