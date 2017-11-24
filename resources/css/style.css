@@ -63,6 +63,10 @@ nav .menu {
   background-color: LightGray;
 }
 
+.img {
+  display: block;
+}
+
 .bench {
   margin: 32px 24px 24px 32px;
   width: 60rem;
@@ -182,13 +186,22 @@ p {
 }
 
 .dates {
-  margin-top: 24px;
+  display: block;
+  margin-top: 15px;
   margin-left: 24px;
+  margin-bottom: 15px;
   font-family: Arial;
   font-size: 25px;
 }
 
-span {
-  color: #0000FF;
+.h3 {
+  display: block;
   font-family: "Barlow";
+  font-size: 40px;
+  text-align: left;
+  margin-bottom: 0;
+  padding: 30px;
+  line-height: 1.2;
+  color: #505050;
+  align-items: center;
 }
