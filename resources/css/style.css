@@ -117,7 +117,7 @@ h2 {
 
 .image-container {
   display: flex;
-  width: 100%;
+  width: 98%;
   height: auto;
   background-color: white;
 }
@@ -215,9 +215,8 @@ p  {
 
 .row-three {
   display: block;
-  width: 100%;
-  height: 100%;
-  padding-left: 5px;
+  width: auto;
+  height: auto;
 }
 
 .image-container-two {
@@ -226,8 +225,7 @@ p  {
   width: 100%;
   height: auto;
   background-color: LightGray;
-  margin-bottom: 16px;
-  justify-content: flex-start;
+  padding-bottom: 32px;
 }
 
 .information-guest-lecture {
