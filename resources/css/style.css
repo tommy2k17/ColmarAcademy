@@ -44,8 +44,9 @@ nav .menu {
   text-align: left;
 }
 
-.ul, li {
-  display: inline-flex;
+ul, li {
+  display: block;
+  list-style-type: disc;
   text-align: left;
 }
 
@@ -283,8 +284,8 @@ h2.courses {
   color: darkGray;
 }
 
-li {
-  display: list-item;
-  font-family: Arial;
-  font-size: 30px;
+h3.subjects {
+  display: block;
+  list-style-type: disc;
+  margin-left: 100px;
 }
