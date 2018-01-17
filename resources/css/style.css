@@ -44,9 +44,8 @@ nav .menu {
   text-align: left;
 }
 
-ul, li {
-  display: block;
-  list-style-type: disc;
+u1 {
+  display: inline-flex;
   text-align: left;
 }
 
