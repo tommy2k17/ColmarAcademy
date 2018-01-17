@@ -189,7 +189,7 @@ p  {
 
 .orientation-date {
   float: left;
-  display: flex;
+  display: block;
   width: 35%;
   height: auto;
   margin-right: 30px;
@@ -222,10 +222,11 @@ p  {
 .image-container-two {
   float: left;
   display: block;
-  width: 100%;
+  width: 96%;
   height: auto;
   background-color: LightGray;
   padding-bottom: 32px;
+  padding-left: 16px;
 }
 
 .information-guest-lecture {
@@ -235,4 +236,55 @@ p  {
   height: auto;
   align-items: center;
   margin-right: 30px;
+}
+
+#courses {
+  width: 1000px;
+  margin: auto;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+h1.learning-heading {
+  display: block;
+  font-family: Arial;
+  font-size: 80px;
+  justify-content: center;
+  text-align: center;
+}
+
+.item {
+  padding: 16px;
+}
+
+.item img {
+  display: block;
+  height: auto;
+  flex-direction: row;
+  margin: 16px;
+  padding-left: 72px;
+}
+
+.item h2 {
+  display: block;
+  font-weight: bold;
+  justify-content: flex-start;
+  margin-left: 100px;
+  margin-bottom: 8px;
+  color: #454545;
+}
+
+h2.courses {
+  display: block;
+  font-family: Arial;
+  font-size: 30px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  color: darkGray;
+}
+
+li {
+  display: list-item;
+  font-family: Arial;
+  font-size: 30px;
 }
