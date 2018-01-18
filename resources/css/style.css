@@ -21,6 +21,7 @@ body {
 .flex-container {
   display: flex;
   justify-content: space-between;
+  height: auto;
 }
 
 a {
@@ -253,14 +254,9 @@ h1.learning-heading {
   text-align: center;
 }
 
-.item {
-  padding: 16px;
-}
-
 .item img {
-  display: block;
+  display: inline-block;
   height: auto;
-  flex-direction: row;
   margin: 16px;
   padding-left: 72px;
 }
@@ -268,7 +264,6 @@ h1.learning-heading {
 .item h2 {
   display: block;
   font-weight: bold;
-  justify-content: flex-start;
   margin-left: 100px;
   margin-bottom: 8px;
   color: #454545;
