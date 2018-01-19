@@ -257,7 +257,7 @@ h1.learning-heading {
 .item img {
   display: inline-block;
   height: auto;
-  margin: 16px;
+  margin-bottom: 16px;
   padding-left: 72px;
 }
 
@@ -282,4 +282,43 @@ h3.subjects {
   display: block;
   list-style-type: disc;
   margin-left: 100px;
+  margin-bottom: 32px;
+}
+
+#thesis-exhibit {
+  width: 1000px;
+  margin: auto;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+h1.exhibit {
+  display: block;
+  font-family: Arial;
+  font-size: 80px;
+  justify-content: center;
+  text-align: center;
+}
+
+video {
+  width: 60%;
+  margin-left: 24px;
+  margin-bottom: 24px;
+  margin-top: 32px;
+}
+
+.special-container-two {
+  width: 40%;
+  height: auto;
+  background-color: LightGray;
+}
+
+.fisma {
+  display: block;
+  width: 35%;
+  height: auto;
+  margin-right: 30px;
+  align-items: center;
+  margin-bottom: 50px;
+  margin-top: 16px;
 }
