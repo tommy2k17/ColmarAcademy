@@ -297,7 +297,7 @@ h1.exhibit {
   font-size: 80px;
   justify-content: center;
   text-align: center;
-  padding-bottom: 32px;
+  margin-bottom: 32px;
 }
 
 .image-container-three {
@@ -329,8 +329,12 @@ video {
 }
 
 .special-container-two {
-  width: 40rem;
+  width: 40%;
+}
+
+.row-number-one {
   background-color: LightGray;
+  margin-top: 32px;
 }
 
 .fisma {
@@ -339,10 +343,4 @@ video {
   height: auto;
   margin-right: 30px;
   margin-top: 16px;
-}
-
-.column-number-one {
-  display: flex;
-  width: 100%;
-  height: auto;
 }
