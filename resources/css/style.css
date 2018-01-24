@@ -322,3 +322,16 @@ video {
   margin-bottom: 50px;
   margin-top: 16px;
 }
+
+.row-number-one {
+  display: block;
+  width: auto;
+  height: auto;
+}
+
+.image-container-three {
+  display: flex;
+  width: 60%;
+  height: auto;
+  background-color: white;
+}
