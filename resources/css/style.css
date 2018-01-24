@@ -289,7 +289,6 @@ h3.subjects {
   width: 1000px;
   margin: auto;
   padding-top: 32px;
-  padding-bottom: 32px;
 }
 
 h1.exhibit {
@@ -298,16 +297,19 @@ h1.exhibit {
   font-size: 80px;
   justify-content: center;
   text-align: center;
+  padding-bottom: 32px;
 }
 
 .image-container-three {
-  width: 60%;
   height: auto;
   background-color: white;
 }
 
 video {
-  width: 60rem;
+  width: 100%;
+}
+
+.video {
   margin-left: 24px;
   margin-bottom: 24px;
   margin-top: 32px;
@@ -316,6 +318,19 @@ video {
 
 .special-container-two {
   width: 40rem;
+  background-color: LightGray
+}
+
+.special-container-two .right-column {
+  width: 100%;
+}
+
+.special-container-two .column-one {
+  width: 60%;
+}
+
+.special-container-two .row-number-one {
+  width: 100%;
 }
 
 .fisma {
@@ -326,8 +341,8 @@ video {
   margin-top: 16px;
 }
 
-.row-number-one {
-  width: 40%;
+.column-number-one {
+  display: flex;
+  width: 100%;
   height: auto;
-  background-color: LightGray;
 }
