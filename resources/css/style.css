@@ -300,17 +300,22 @@ h1.exhibit {
   text-align: center;
 }
 
-video {
+.image-container-three {
   width: 60%;
+  height: auto;
+  background-color: white;
+}
+
+video {
+  width: 60rem;
   margin-left: 24px;
   margin-bottom: 24px;
   margin-top: 32px;
+  margin-right: 32px;
 }
 
 .special-container-two {
-  width: 40%;
-  height: auto;
-  background-color: LightGray;
+  width: 40rem;
 }
 
 .fisma {
@@ -318,20 +323,11 @@ video {
   width: 35%;
   height: auto;
   margin-right: 30px;
-  align-items: center;
-  margin-bottom: 50px;
   margin-top: 16px;
 }
 
 .row-number-one {
-  display: block;
-  width: auto;
+  width: 40%;
   height: auto;
-}
-
-.image-container-three {
-  display: flex;
-  width: 60%;
-  height: auto;
-  background-color: white;
+  background-color: LightGray;
 }
