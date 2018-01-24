@@ -305,6 +305,18 @@ h1.exhibit {
   background-color: white;
 }
 
+.image-container-three .right-column {
+  width: 100%;
+}
+
+.image-container-three .column-one {
+  width: 60%;
+}
+
+.image-container-three .row-number-one {
+  width: 100%;
+}
+
 video {
   width: 100%;
 }
@@ -318,19 +330,7 @@ video {
 
 .special-container-two {
   width: 40rem;
-  background-color: LightGray
-}
-
-.special-container-two .right-column {
-  width: 100%;
-}
-
-.special-container-two .column-one {
-  width: 60%;
-}
-
-.special-container-two .row-number-one {
-  width: 100%;
+  background-color: LightGray;
 }
 
 .fisma {
