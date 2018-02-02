@@ -332,15 +332,29 @@ video {
   width: 40%;
 }
 
+.column-number-one {
+  display: block;
+  height: auto;
+}
+
 .row-number-one {
   background-color: LightGray;
   margin-top: 32px;
+  height: auto;
+  float: left;
+  padding-bottom: 16px;
+  padding-left: 16px;
 }
 
 .fisma {
   display: block;
   width: 35%;
   height: auto;
+  align-items: center;
   margin-right: 30px;
   margin-top: 16px;
+}
+
+h2.dandp {
+  display: inline-block;
 }
