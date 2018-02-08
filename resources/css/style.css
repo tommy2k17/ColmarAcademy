@@ -13,6 +13,7 @@ html {
 }
 
 body {
+
   font-family: Helvetica;
   line-height: 1.4em;
   margin: 0;
@@ -332,12 +333,8 @@ video {
   width: 40%;
 }
 
-.column-number-one {
-  display: block;
-  height: auto;
-}
-
 .row-number-one {
+  display: flex;
   background-color: LightGray;
   margin-top: 32px;
   height: auto;
@@ -350,7 +347,6 @@ video {
   display: block;
   width: 35%;
   height: auto;
-  align-items: center;
   margin-right: 30px;
   margin-top: 16px;
 }
