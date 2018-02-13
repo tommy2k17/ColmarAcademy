@@ -1,4 +1,4 @@
-/* H/* Header */
+Header */
 @font-face {
   font-family: 'Barlow';
   src:  url('Barlow-Regular.woff') format('woff2'),
@@ -7,13 +7,12 @@
 
 html {
   font-size: 18px;
-  background-color: white;
+  background-color: blue;
   font-family: sans-serif;
   line-height: 1.4em;
 }
 
 body {
-
   font-family: Helvetica;
   line-height: 1.4em;
   margin: 0;
@@ -67,7 +66,7 @@ u1 {
 
 .bench {
   margin: 32px 24px 24px 32px;
-  width: 60rem;
+  max-width: 60rem;
 }
 
 header div {
@@ -336,14 +335,16 @@ video {
 .row-number-one {
   display: flex;
   background-color: LightGray;
+  width: 65px;
   margin-top: 32px;
   height: auto;
   float: left;
-  padding-bottom: 16px;
+  padding-bottom: 32px;
   padding-left: 16px;
 }
 
 .fisma {
+  float: left;
   display: block;
   width: 35%;
   height: auto;
@@ -351,6 +352,94 @@ video {
   margin-top: 16px;
 }
 
-h2.dandp {
+.h2 .dandp {
   display: inline-block;
 }
+
+.now-and-then {
+  float: left;
+  display: block;
+  flex-direction: row;
+  width: 35%;
+  height: auto;
+  margin-right: 30px;
+  align-items: center;
+  margin-bottom: 50px;
+  margin-left: 24px;
+  margin-top: 16px;
+}
+
+.p .narrative-2 {
+  margin-bottom: 32px;
+  margin-left: 24px;
+}
+
+.p .tandc {
+  align-content: flex-end;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 470px) {
+  header {
+    flex-direction: row;
+    background: url('/resources/images/ic-logo.svg');
+    background: url('/resources/images/ic-on-campus.svg');
+    background: url('/resources/images/ic-online.svg');
+    background: url('/resources/images/ic-login.svg');
+    align-items: center;
+  }
+  .bench {
+    background-image: url('/resources/images/ic-logo.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 32px;
+  }
+  .h1 {
+    margin-left: 16px;
+    margin-bottom: 32px;
+    margin-right: 16px;
+    margin-top: 16px;
+  }
+  .h2 {
+    margin-left: 16px;
+    margin-bottom: 24px;
+  }
+  .button {
+    margin-bottom: 24px;
+    margin-left: 16px;
+  }
+  .information-orientation {
+    background: url('/resources/images/information-orientation-mobile');
+    margin-left: 16px;
+  }
+  .information-campus {
+    background: url('/resources/images/information-campus.svg');
+  }
+  .information-guest-lecture {
+    background: url('/resources/images/information-guest-lecture.mobile');
+  }
+  .p {
+
+  }
+  .h2 {
+    background: LightGray;
+    display: flex;
+    background-color: LightGray;
+    width: auto;
+    margin-top: 16px;
+    height: auto;
+    text-align: center;
+    padding-bottom: 16px;
+    padding-left: 16px;
+  }
+  #thesis-exhibit {
+    margin-bottom: 32px;
+  }
+  video {
+    margin-bottom: 24px;
+  }
+  .narrative-2 {
+    margin-top: 16px;
+    margin-bottom: 16px;
+  }
+  }
